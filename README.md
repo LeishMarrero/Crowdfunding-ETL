@@ -30,8 +30,8 @@ We created a table with email, contact information, and remaining goal amount in
 ![email_contacts_remaininggoal](email_contacts_remaininggoal.png)
 
 To conclude, a table was also created to email the backers how much of the goal remains for each live campaign. The following code was used, 
-'''
-SELECT
+
+'''SELECT
 	ba.email,
 	ba.first_name,
 	ba.last_name,
@@ -46,4 +46,5 @@ LEFT JOIN campaign AS ca
 ON (ba.cf_id = ca.cf_id)
 ORDER BY email DESC;
 '''
+
 Independent Funding has all the databases and tables needed in PostgreSQL to inform their contacts with the progress of all crowdfunding campaigns.
