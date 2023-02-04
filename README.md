@@ -1,14 +1,14 @@
 # Crowdfunding-ETL
 Module 8 Analysis
 ## Overview of Project
-Independent Funding is a crowdfunding platform for funding independent projects or ventures. They want to move all of their accesible data from Excel to PostgresSQL. We will be extracting and transforming data from large Excel files to CSV files to create a PostgreSQL database and tables by using ERDs.
+Independent Funding is a crowdfunding platform for funding independent projects or ventures. They want to move all their accessible data from Excel to PostgresSQL. We will be extracting and transforming data from large Excel files to CSV files to create a PostgreSQL database and tables by using ERDs.
 
 ## Purpose
 We will be performing SQL queries to generate reports for stakeholders of information about the backers who've pledged to the live projects.
 
 ## Results
 ### Extract the Data
-Using Python and Pandas, we begin exctracting and transforming the raw data into a DataFrame. After extracting the raw data, creating columns, and separating the names into two different columns, this is what our new DataFrame looks like. 
+Using Python and Pandas, we begin extracting and transforming the raw data into a DataFrame. After extracting the raw data, creating columns, and separating the names into two different columns, this is what our new DataFrame looks like. 
 
 ![newdata](newdata.png)
 
