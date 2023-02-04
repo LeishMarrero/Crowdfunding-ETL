@@ -31,7 +31,8 @@ We created a table with email, contact information, and remaining goal amount in
 
 To conclude, a table was also created to email the backers how much of the goal remains for each live campaign. The following code was used, 
 
-'''sqlpl
+'''sql
+
 SELECT
         ba.email,
 	ba.first_name,
